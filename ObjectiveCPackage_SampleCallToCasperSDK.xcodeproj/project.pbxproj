@@ -11,6 +11,23 @@
 		9076661F28431DAF00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9076661428431DAE00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDK.framework */; };
 		9076662428431DAF00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9076662328431DAF00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDKTests.m */; };
 		9076662528431DAF00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9076661728431DAE00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9076663128431E2800F8B23B /* CasperSDKObjectiveC in Frameworks */ = {isa = PBXBuildFile; productRef = 9076663028431E2800F8B23B /* CasperSDKObjectiveC */; };
+		9076663328431E2800F8B23B /* CasperSDKObjectiveC_CLValue in Frameworks */ = {isa = PBXBuildFile; productRef = 9076663228431E2800F8B23B /* CasperSDKObjectiveC_CLValue */; };
+		9076663528431E2800F8B23B /* CasperSDKObjectiveC_CommonClasses in Frameworks */ = {isa = PBXBuildFile; productRef = 9076663428431E2800F8B23B /* CasperSDKObjectiveC_CommonClasses */; };
+		9076663728431E2800F8B23B /* CasperSDKObjectiveC_Crypto in Frameworks */ = {isa = PBXBuildFile; productRef = 9076663628431E2800F8B23B /* CasperSDKObjectiveC_Crypto */; };
+		9076663928431E2800F8B23B /* CasperSDKObjectiveC_GetAuctionInfo in Frameworks */ = {isa = PBXBuildFile; productRef = 9076663828431E2800F8B23B /* CasperSDKObjectiveC_GetAuctionInfo */; };
+		9076663B28431E2800F8B23B /* CasperSDKObjectiveC_GetBlock in Frameworks */ = {isa = PBXBuildFile; productRef = 9076663A28431E2800F8B23B /* CasperSDKObjectiveC_GetBlock */; };
+		9076663D28431E2800F8B23B /* CasperSDKObjectiveC_GetBlockTransfers in Frameworks */ = {isa = PBXBuildFile; productRef = 9076663C28431E2800F8B23B /* CasperSDKObjectiveC_GetBlockTransfers */; };
+		9076663F28431E2800F8B23B /* CasperSDKObjectiveC_GetDeploy in Frameworks */ = {isa = PBXBuildFile; productRef = 9076663E28431E2800F8B23B /* CasperSDKObjectiveC_GetDeploy */; };
+		9076664128431E2800F8B23B /* CasperSDKObjectiveC_GetDictionaryItem in Frameworks */ = {isa = PBXBuildFile; productRef = 9076664028431E2800F8B23B /* CasperSDKObjectiveC_GetDictionaryItem */; };
+		9076664328431E2800F8B23B /* CasperSDKObjectiveC_GetEraInfo in Frameworks */ = {isa = PBXBuildFile; productRef = 9076664228431E2800F8B23B /* CasperSDKObjectiveC_GetEraInfo */; };
+		9076664528431E2800F8B23B /* CasperSDKObjectiveC_GetItem in Frameworks */ = {isa = PBXBuildFile; productRef = 9076664428431E2800F8B23B /* CasperSDKObjectiveC_GetItem */; };
+		9076664728431E2800F8B23B /* CasperSDKObjectiveC_GetPeerList in Frameworks */ = {isa = PBXBuildFile; productRef = 9076664628431E2800F8B23B /* CasperSDKObjectiveC_GetPeerList */; };
+		9076664928431E2800F8B23B /* CasperSDKObjectiveC_GetStateRootHash in Frameworks */ = {isa = PBXBuildFile; productRef = 9076664828431E2800F8B23B /* CasperSDKObjectiveC_GetStateRootHash */; };
+		9076664B28431E2800F8B23B /* CasperSDKObjectiveC_GetStatus in Frameworks */ = {isa = PBXBuildFile; productRef = 9076664A28431E2800F8B23B /* CasperSDKObjectiveC_GetStatus */; };
+		9076664D28431E2800F8B23B /* CasperSDKObjectiveC_PutDeploy in Frameworks */ = {isa = PBXBuildFile; productRef = 9076664C28431E2800F8B23B /* CasperSDKObjectiveC_PutDeploy */; };
+		9076664F28431E2800F8B23B /* CasperSDKObjectiveC_Serialization in Frameworks */ = {isa = PBXBuildFile; productRef = 9076664E28431E2800F8B23B /* CasperSDKObjectiveC_Serialization */; };
+		9076665128431E6F00F8B23B /* GetStateRootHashRPCCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 9076665028431E6F00F8B23B /* GetStateRootHashRPCCall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +46,8 @@
 		9076661828431DAE00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ObjectiveCPackage_SampleCallToCasperSDK.docc; sourceTree = "<group>"; };
 		9076661E28431DAF00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCPackage_SampleCallToCasperSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9076662328431DAF00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCPackage_SampleCallToCasperSDKTests.m; sourceTree = "<group>"; };
+		9076662E28431DE400F8B23B /* GetStateRootHashRPCCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetStateRootHashRPCCall.h; sourceTree = "<group>"; };
+		9076665028431E6F00F8B23B /* GetStateRootHashRPCCall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetStateRootHashRPCCall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +55,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9076664B28431E2800F8B23B /* CasperSDKObjectiveC_GetStatus in Frameworks */,
+				9076663B28431E2800F8B23B /* CasperSDKObjectiveC_GetBlock in Frameworks */,
+				9076664D28431E2800F8B23B /* CasperSDKObjectiveC_PutDeploy in Frameworks */,
+				9076664528431E2800F8B23B /* CasperSDKObjectiveC_GetItem in Frameworks */,
+				9076664F28431E2800F8B23B /* CasperSDKObjectiveC_Serialization in Frameworks */,
+				9076663728431E2800F8B23B /* CasperSDKObjectiveC_Crypto in Frameworks */,
+				9076663928431E2800F8B23B /* CasperSDKObjectiveC_GetAuctionInfo in Frameworks */,
+				9076664728431E2800F8B23B /* CasperSDKObjectiveC_GetPeerList in Frameworks */,
+				9076663D28431E2800F8B23B /* CasperSDKObjectiveC_GetBlockTransfers in Frameworks */,
+				9076663328431E2800F8B23B /* CasperSDKObjectiveC_CLValue in Frameworks */,
+				9076663528431E2800F8B23B /* CasperSDKObjectiveC_CommonClasses in Frameworks */,
+				9076664928431E2800F8B23B /* CasperSDKObjectiveC_GetStateRootHash in Frameworks */,
+				9076663128431E2800F8B23B /* CasperSDKObjectiveC in Frameworks */,
+				9076663F28431E2800F8B23B /* CasperSDKObjectiveC_GetDeploy in Frameworks */,
+				9076664128431E2800F8B23B /* CasperSDKObjectiveC_GetDictionaryItem in Frameworks */,
+				9076664328431E2800F8B23B /* CasperSDKObjectiveC_GetEraInfo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +108,8 @@
 			children = (
 				9076661728431DAE00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDK.h */,
 				9076661828431DAE00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDK.docc */,
+				9076662E28431DE400F8B23B /* GetStateRootHashRPCCall.h */,
+				9076665028431E6F00F8B23B /* GetStateRootHashRPCCall.m */,
 			);
 			path = ObjectiveCPackage_SampleCallToCasperSDK;
 			sourceTree = "<group>";
@@ -113,6 +150,24 @@
 			dependencies = (
 			);
 			name = ObjectiveCPackage_SampleCallToCasperSDK;
+			packageProductDependencies = (
+				9076663028431E2800F8B23B /* CasperSDKObjectiveC */,
+				9076663228431E2800F8B23B /* CasperSDKObjectiveC_CLValue */,
+				9076663428431E2800F8B23B /* CasperSDKObjectiveC_CommonClasses */,
+				9076663628431E2800F8B23B /* CasperSDKObjectiveC_Crypto */,
+				9076663828431E2800F8B23B /* CasperSDKObjectiveC_GetAuctionInfo */,
+				9076663A28431E2800F8B23B /* CasperSDKObjectiveC_GetBlock */,
+				9076663C28431E2800F8B23B /* CasperSDKObjectiveC_GetBlockTransfers */,
+				9076663E28431E2800F8B23B /* CasperSDKObjectiveC_GetDeploy */,
+				9076664028431E2800F8B23B /* CasperSDKObjectiveC_GetDictionaryItem */,
+				9076664228431E2800F8B23B /* CasperSDKObjectiveC_GetEraInfo */,
+				9076664428431E2800F8B23B /* CasperSDKObjectiveC_GetItem */,
+				9076664628431E2800F8B23B /* CasperSDKObjectiveC_GetPeerList */,
+				9076664828431E2800F8B23B /* CasperSDKObjectiveC_GetStateRootHash */,
+				9076664A28431E2800F8B23B /* CasperSDKObjectiveC_GetStatus */,
+				9076664C28431E2800F8B23B /* CasperSDKObjectiveC_PutDeploy */,
+				9076664E28431E2800F8B23B /* CasperSDKObjectiveC_Serialization */,
+			);
 			productName = ObjectiveCPackage_SampleCallToCasperSDK;
 			productReference = 9076661428431DAE00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDK.framework */;
 			productType = "com.apple.product-type.framework";
@@ -161,6 +216,9 @@
 				Base,
 			);
 			mainGroup = 9076660A28431DAE00F8B23B;
+			packageReferences = (
+				9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */,
+			);
 			productRefGroup = 9076661528431DAE00F8B23B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -193,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9076665128431E6F00F8B23B /* GetStateRootHashRPCCall.m in Sources */,
 				9076661928431DAE00F8B23B /* ObjectiveCPackage_SampleCallToCasperSDK.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +518,100 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tqhuy2018/Casper-ObjectiveC-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9076663028431E2800F8B23B /* CasperSDKObjectiveC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC;
+		};
+		9076663228431E2800F8B23B /* CasperSDKObjectiveC_CLValue */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_CLValue;
+		};
+		9076663428431E2800F8B23B /* CasperSDKObjectiveC_CommonClasses */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_CommonClasses;
+		};
+		9076663628431E2800F8B23B /* CasperSDKObjectiveC_Crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_Crypto;
+		};
+		9076663828431E2800F8B23B /* CasperSDKObjectiveC_GetAuctionInfo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_GetAuctionInfo;
+		};
+		9076663A28431E2800F8B23B /* CasperSDKObjectiveC_GetBlock */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_GetBlock;
+		};
+		9076663C28431E2800F8B23B /* CasperSDKObjectiveC_GetBlockTransfers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_GetBlockTransfers;
+		};
+		9076663E28431E2800F8B23B /* CasperSDKObjectiveC_GetDeploy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_GetDeploy;
+		};
+		9076664028431E2800F8B23B /* CasperSDKObjectiveC_GetDictionaryItem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_GetDictionaryItem;
+		};
+		9076664228431E2800F8B23B /* CasperSDKObjectiveC_GetEraInfo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_GetEraInfo;
+		};
+		9076664428431E2800F8B23B /* CasperSDKObjectiveC_GetItem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_GetItem;
+		};
+		9076664628431E2800F8B23B /* CasperSDKObjectiveC_GetPeerList */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_GetPeerList;
+		};
+		9076664828431E2800F8B23B /* CasperSDKObjectiveC_GetStateRootHash */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_GetStateRootHash;
+		};
+		9076664A28431E2800F8B23B /* CasperSDKObjectiveC_GetStatus */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_GetStatus;
+		};
+		9076664C28431E2800F8B23B /* CasperSDKObjectiveC_PutDeploy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_PutDeploy;
+		};
+		9076664E28431E2800F8B23B /* CasperSDKObjectiveC_Serialization */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9076662F28431E2800F8B23B /* XCRemoteSwiftPackageReference "Casper-ObjectiveC-sdk" */;
+			productName = CasperSDKObjectiveC_Serialization;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9076660B28431DAE00F8B23B /* Project object */;
 }
